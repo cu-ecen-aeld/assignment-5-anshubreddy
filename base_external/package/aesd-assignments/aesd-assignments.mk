@@ -18,6 +18,7 @@ define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/server all
 endef
 
+
 # Add aesdsocket application and aesdsocket-start-stop script to /usr/bin directory and
 # /etc/init.d/S99aesdsocket respectively
 define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
